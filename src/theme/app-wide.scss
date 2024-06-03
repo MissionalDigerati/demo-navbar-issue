@@ -1,0 +1,64 @@
+body, ion-app, ion-content {
+  font-family: var(--ion-font-family) !important;
+}
+
+.ion-color-quaternary {
+	--ion-color-base: var(--ion-color-quaternary);
+	--ion-color-base-rgb: var(--ion-color-quaternary-rgb);
+	--ion-color-contrast: var(--ion-color-quaternary-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-quaternary-contrast-rgb);
+	--ion-color-shade: var(--ion-color-quaternary-shade);
+	--ion-color-tint: var(--ion-color-quaternary-tint);
+}
+
+ion-fab-button.fab-border {
+  --border-width: 4px;
+  --border-style: solid;
+  --border-color: var(--ion-color-primary-shade);
+}
+
+ion-header.color-primary {
+  border-bottom: 4px solid var(--ion-color-primary-shade);
+}
+
+ion-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+ion-modal {
+  // Fixes an issue when you stack modals on top of each other:
+  // @link https://github.com/ionic-team/ionic-framework/issues/26481
+  --backdrop-opacity: 0.32 !important;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4) !important;
+
+  &.full-modal {
+    --min-width: 100%;
+    --min-height: 100%;
+  }
+
+  &.modal-80 {
+    --height: 80%;
+    --max-height: 80%;
+    --max-width: 80%;
+    --width: 80%;
+  }
+}
+
+.interactive-image-element {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.interactive-image-element img {
+  width: 100%;
+  height: auto;
+}
+
+.interactive-image-element .hotspot {
+  position: absolute;
+  // background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent */
+  background-color: transparent;
+  border: none;
+}
