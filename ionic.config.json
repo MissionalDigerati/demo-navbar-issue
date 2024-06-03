@@ -1,0 +1,7 @@
+{
+  "name": "nav-bar-issue-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
