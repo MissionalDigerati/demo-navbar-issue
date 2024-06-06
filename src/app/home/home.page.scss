@@ -1,0 +1,32 @@
+.border-bottom-half {
+    background: var(--ion-color-primary, #0054e9) !important;
+    width: 80px;
+    height: 40px;
+    
+    position: absolute;
+    top: 40px;
+    right: -5px;
+
+    border: 4px solid var(--ion-toolbar-border-color, var(--ion-border-color, var(--ion-color-step-150, var(--ion-background-color-step-150, #094EAA)))) !important;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0 !important;
+}
+
+.button-earth {
+    --border-radius: 50%;
+    --box-shadow: none;
+
+    position: absolute;
+    top: 16px;
+    right: 10px;
+
+    z-index: 9998;
+    border: 0;
+    color: white;
+}
+
+.icon-earth {
+    width: 45px;
+    height: 45px;
+}
